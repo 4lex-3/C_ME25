@@ -10,7 +10,7 @@ int main() {
 
     char x [] = "\0";
 
-    printf("\"Guten Morgen\" meine Freunde: Gib deinen Namen ein: \n");
+    printf("\"Guten Morgen\" ihr C-Schwuchtel\n");
     fgets(x, sizeof(x), stdin);
     x[strlen(x) - 1] = '\0';
     printf("%s\n", x);
@@ -18,4 +18,3 @@ int main() {
 
     return (EXIT_SUCCESS);
 }
-
